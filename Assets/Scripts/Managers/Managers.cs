@@ -14,6 +14,9 @@ public class Managers : MonoBehaviour
     InputManager _input = new InputManager();   // 그냥 필드
     public static InputManager Input { get { return Instance._input; } }
 
+    SceneManagerEx _scene = new SceneManagerEx();
+    public static SceneManagerEx Scene { get {  return Instance._scene; } }
+
     UIManager _ui = new UIManager();
     public static UIManager UI { get { return Instance._ui; } }
 
